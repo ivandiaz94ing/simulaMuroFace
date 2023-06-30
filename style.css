@@ -1,0 +1,54 @@
+.container{
+    margin: auto;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.ima{
+    height: 55%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.imagen-perfil{
+    position: absolute;
+    bottom: 190px;
+    width: 150px;
+    height: 150px;
+    border: solid rgb(78, 76, 72);
+    border-radius: 50%;
+    background-color: rgba(255, 99, 71, 0.233);
+}
+
+.imagen-p{
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+.nombre{
+    text-align: center;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+
+}
+
+.profesion{
+    text-align: center;
+    font-family: montserrat;
+    font-size: 18px;
+    margin-block-start: 0px;
+
+
+
+}
